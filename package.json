@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "rollup -c",
+    "deploy": "npm run build && now"
+  },
+  "devDependencies": {
+    "now": "^17.1.1",
+    "rollup": "^2.3.3"
+  }
+}
