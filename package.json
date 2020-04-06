@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "rollup -c",
+    "now-build": "npm run build",
     "deploy": "npm run build && now"
   },
   "devDependencies": {

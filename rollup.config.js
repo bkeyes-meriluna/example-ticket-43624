@@ -1,9 +1,15 @@
-export default {
-  input: {
-    a: 'src/a.js',
-    b: 'src/b.js'
-  },
-  output: {
-    dir: 'api'
-  }
+const output = {
+  dir: 'api',
+  sourcemap: 'inline'
 }
+
+export default [{
+  input: 'src/a.js',
+  output
+}, {
+  input: 'src/b.js',
+  output
+}, {
+  input: 'src/c.js',
+  output
+}]
