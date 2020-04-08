@@ -1,5 +1,5 @@
 const output = {
-  dir: 'api',
+  dir: 'dist/api',
   sourcemap: 'inline'
 }
 
